@@ -1,105 +1,105 @@
 # CoreJS Interview #2
-- Прохождение Corejs Interview #2 обязательно для получения сертификата RS School.ы
-- Студентам не разрешается давать интервью своим нынешним наставникам.
-- Студенты без наставника также могут записаться на собеседование.
-- Студенты должны сами связаться с интервьюером. Контактная информация будет доступна в приложении RS. **Примечание:** Студенты должны учитывать, что наставник может быть занят (отпуск, командировка, загруженность и т.д.), поэтому, пожалуйста, свяжитесь с ним как можно скорее.
--По желанию наставника собеседование может проходить онлайн или очно.
-- Предпочтительная продолжительность интервью 45-90 минут.
-- Во время интервью наставник:
-  - задаёт вопросы;
-  - получает ответы;
-  - добавляет/исправляет/объясняет/дает правильный ответ, если необходимо.
-- После собеседования наставник должен заполнить форму обратной связи (RS APP > Interviews)  
-## Примеры вопросов:
+- Passing the Corejs Interview #2 is mandatory for obtaining the RS School certificate.
+- The students are not allowed to be interviewed by their current mentors.
+- The students without a mentor can also register for an interview.
+- Students should contact the interviewer themselves. Contact details will be available on the RS APP. **Note:** Students should consider that the mentor can be busy (vacation, business trip, workload, etc.), so please get in touch with him as soon as possible.
+- At the mentor's request, the interview can take place online or face-to-face.
+- Preferable interview duration is 45-90 minutes.
+- During the interview mentor:
+  - asks questions;
+  - gets answers;
+  - adds/corrects/explains/gives the right answer, if necessary.
+- After the interview mentor have to fill in the feedback form (RS APP > Interviews)  
+## Question examples:
 
 ### JavaScript:
 
 - #### Advanced Expressions
 
-  - Всплытие
-  - Временная мертвая зона
+  - [X] Hoisting
+  - [X] Temporal dead zone
 
 - #### Objects Built-in methods.
 
-  - Статические свойства и методы
-  - Флаги и дескрипторы свойств (студент может установить свойство через Object. определить свойство)
-  - Знать, как создавать итерируемые объекты, использовать Symbol.iterator `(optional)`
+  - [ ] Know static Object methods
+  - [ ] Property flags & descriptors (student is able to set property via Object. defineProperty)
+  - [ ] Know how to create iterable objects, Symbol.iterator usage `(optional)`
 
 - #### Object as Hash.
 
-  - Уметь циклически переключаться между объектными ключами
+  - [X] Be able to loop through Object keys
 
 - #### Arrays Built-in methods
 
-  - Знать, как копировать часть массива
-  - Know how to flatten nested array
+  - [X] Know how to copy array part
+  - [X] Know how to flatten nested array
 
 - #### Arrays Iterating, Sorting, Filtering
 
-  - Иметь возможность пользовательской сортировки для массива
-  - Уметь фильтровать элементы массива
+  - [X] Be able to custom sorting for Array
+  - [X] Be able to filter Array elements
 
 - #### Functional Scope
 
-  - Знать глобальную область и функциональную область
-  - Знать области видимости переменных
-  - Понимание вложенных областей видимости и умение работать с ними
+  - [X] Know global scope and functional scope
+  - [X] Know variables visibility areas
+  - [X] Understand nested scopes and able work with them
 
 - #### Functions Parameters / Arguments
 
-  - Знать, как определить параметры функции
-  - Знайте разницу между параметрами, передаваемыми по значению и по ссылке
-  - Знать, как обрабатывать динамическое количество параметров функции
+  - [X] Know how to define Function parameters
+  - [X] Know difference between parameters passing by value and by reference
+  - [X] Know how to handle dynamic amount of Function parameters
 
 - #### ECMAScript Intermediate
 
-  - Параметры функции по умолчанию
-  - ECMA script модули
-  - Знать, как использовать spread оператор для аргументов функции.
-  - Уметь сравнивать `arguments` и `rest parameters`
-  - Spread operator для Массива
-  - Понимать и уметь использовать spread оператор для конкатенации массивов.
-    Назначение деструктурирования
-  - Уметь открывать концепцию деструктурирующего назначения
-  - Понимание переменных и аргументов функций, деструктурирующих присваивание
-  - Строковые шаблоны
-  - Знать, как работает цикл `for..of` `(optional)`
+  - [X] Function default parameters
+  - [X] ECMA script modules
+  - [X] Know how to use spread operator for Function arguments
+  - [ ] Be able to compare `arguments` and `rest parameters`
+  - [X] Spread operator for Array
+  - [ ] Understand and able to use spread operator for Array concatenation
+    Destructuring assignment
+  - [ ] Be able to discover destructuring assignment concept
+  - [ ] Understand variables and Function arguments destructuring assignment
+  - [ ] String templates
+  - [ ] Know how `for..of` loop works `(optional)`
 
 - #### Advanced Functions
 
-  - `this` scope
-  - Ссылочный тип & losing `this`
-  - Понять разницу между функцией и методом
-  - Understand how `this` works, realize `this` possible issues
-  - Manage `this` scope
-  - Be able to replace `this` scope
-  - Be able to use `call` and `apply` Function built-in methods
+  - [ ] `this` scope
+  - [ ] Reference Type & losing `this`
+  - [ ] Understand difference between function and method
+  - [ ] Understand how `this` works, realize `this` possible issues
+  - [ ] Manage `this` scope
+  - [ ] Be able to replace `this` scope
+  - [ ] Be able to use `call` and `apply` Function built-in methods
 
 - #### Functional Patterns
 
-  - Immediately invoked functional expression `(IIFE)` `(optional)`
-  - Know IIFE pattern `(optional)`
-  - Callback (Function as argument)
-  - Know callback pattern
-  - Understand callback limitations (callback hell) `(optional)`
-  - Binding, binding one function twice
-  - Know how to bind `this` scope to function
-  - Carrying and partial functions
+  - [X] Immediately invoked functional expression `(IIFE)` `(optional)`
+  - [X] Know IIFE pattern `(optional)`
+  - [X] Callback (Function as argument)
+  - [ ] Know callback pattern
+  - [ ] Understand callback limitations (callback hell) `(optional)`
+  - [ ] Binding, binding one function twice
+  - [ ] Know how to bind `this` scope to function
+  - [ ] Carrying and partial functions
 
 - #### Network requests
 
-  - `Fetch` (with usage)
-  - `XMLHTTPRequest` (concept) `(optional)`
-  - `WebSocket` (concept) `(optional)`
+  - [ ] `Fetch` (with usage)
+  - [ ] `XMLHTTPRequest` (concept) `(optional)`
+  - [ ] `WebSocket` (concept) `(optional)`
 
 - #### Web components
 
-  - Web components, shadow DOM (concept) `(optional)`
+  - [ ] Web components, shadow DOM (concept) `(optional)`
 
 - #### Date & time
 
-  - Timezones `(optional)`
-  - Internationalization js (Intl) `(optional)`
+  - [ ] Timezones `(optional)`
+  - [ ] Internationalization js (Intl) `(optional)`
 
 - #### Closures Advanced
 
